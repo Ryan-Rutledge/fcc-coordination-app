@@ -1,0 +1,30 @@
+{
+  "name": "fcc-coordination-app",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp web application project #2",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "passport": "^0.3.2",
+    "sqlite3": "^3.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "postinstall": "node scripts/createdb.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryan-Rutledge/fcc-coordination-app.git"
+  },
+  "author": "Ryan Rutledge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ryan-Rutledge/fcc-coordination-app/issues"
+  },
+  "homepage": "https://github.com/Ryan-Rutledge/fcc-coordination-app#readme"
+}
